@@ -1,4 +1,5 @@
 # Read Me First
+# Booking API
 ## Running the code in local mode
 - Run ´mvn spring-boot:run´ from a console in the directory of the project
 
@@ -10,9 +11,10 @@
 
 ##Endpoints available
 1. GET "/api/book/all" --> Retrieves all the bookings stored in the database
-2. GET "users" --> Retrieves all the users stored in the database
-3. GET "checkAvailability" --> Shows the room availability
-4. GET "current" --> Retrieves the current bookings
+2. GET "/api/book/users" --> Retrieves all the users stored in the database
+3. GET "/api/book/checkAvailability" --> Shows the room availability
+4. GET "/api/book/current" --> Retrieves the current bookings
 5. POST "/api/book/" --> Creates a new booking
 6. PUT "/api/book/" --> Updates an existing booking
 7. PUT "/api/book/cancel" --> cancels an existing booking
+8. 
